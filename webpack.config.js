@@ -8,6 +8,9 @@ module.exports = {
       vue: "vue/dist/vue.js"
     }
   },
+  resolve: {
+    extensions: [".js"]
+  },
   module: {
     loaders: [
       {
