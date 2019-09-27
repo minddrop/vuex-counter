@@ -7,7 +7,7 @@
       <AddCounter />
     </div>
     <div class="column auto">
-      <RemoveCounter />
+      <SubtractCounter />
     </div>
   </div>
 </template>
@@ -15,13 +15,13 @@
 <script>
 import Counter from './components/Counter.vue'
 import AddCounter from './components/AddCounter.vue'
-import RemoveCounter from './components/RemoveCounter.vue'
+import SubtractCounter from './components/SubtractCounter.vue'
 
 export default {
   components: {
     Counter,
     AddCounter,
-    RemoveCounter,
+    SubtractCounter,
   },
 }
 </script>

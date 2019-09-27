@@ -6,7 +6,7 @@
           class="button is-primary"
           @click="removeCounter()"
         >
-          Remove
+          Subtract
         </button>
       </div>
     </div>
