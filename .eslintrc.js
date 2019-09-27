@@ -5,5 +5,8 @@ module.exports = {
     semi: [2, "never"],
     "comma-dangle": ["error", "always-multiline"],
     quotes: ["error", "single"]
+  },
+  env: {
+    node: true
   }
 }
