@@ -2,7 +2,10 @@
   <div class="container">
     <div class="field is-grouped">
       <div class="control">
-        <button class="button is-primary">
+        <button
+          class="button is-primary"
+          @click="addCounter()"
+        >
           Add
         </button>
       </div>
