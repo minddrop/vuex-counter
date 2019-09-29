@@ -20,7 +20,7 @@ import * as type from '../store/mutationTypes/types'
 export default {
   methods: {
     removeCounter() {
-      store.dispatch({
+      store.counter.dispatch({
         type: type.Decrement,
         amount: -20,
       })
