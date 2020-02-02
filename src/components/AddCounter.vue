@@ -2,10 +2,7 @@
   <div class="container">
     <div class="field is-grouped">
       <div class="control">
-        <button
-          class="button is-primary"
-          @click="addCounter()"
-        >
+        <button class="button is-primary" @click="addCounter()">
           Add
         </button>
       </div>
@@ -22,9 +19,9 @@ export default {
     addCounter() {
       store.dispatch({
         type: type.Increment,
-        amount: 20,
+        amount: 20
       })
-    },
-  },
+    }
+  }
 }
 </script>

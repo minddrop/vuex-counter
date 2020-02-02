@@ -6,8 +6,8 @@ Vue.use(Vuex)
 
 const store = new Vuex.Store({
   modules: {
-    counter: counter,
-  },
+    counter: counter
+  }
 })
 
 export default store

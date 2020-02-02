@@ -2,10 +2,7 @@
   <div class="container">
     <div class="field is-grouped">
       <div class="control">
-        <button
-          class="button is-primary"
-          @click="removeCounter()"
-        >
+        <button class="button is-primary" @click="removeCounter()">
           Subtract
         </button>
       </div>
@@ -22,9 +19,9 @@ export default {
     removeCounter() {
       store.counter.dispatch({
         type: type.Decrement,
-        amount: -20,
+        amount: -20
       })
-    },
-  },
+    }
+  }
 }
 </script>

@@ -1,10 +1,7 @@
 <template>
   <div class="container">
     <div class="notification">
-      <h1
-        class="title"
-        align="center"
-      >
+      <h1 class="title" align="center">
         {{ count }}
       </h1>
     </div>
@@ -12,11 +9,11 @@
 </template>
 
 <script>
-import {mapState} from 'vuex'
+import { mapState } from 'vuex'
 
 export default {
   computed: mapState({
-    count: state=>state.counter.count,
-  }),
+    count: state => state.counter.count
+  })
 }
 </script>

@@ -2,7 +2,7 @@
   <div class="container">
     <div>Welcome to App Component</div>
     <Counter />
-    <br>
+    <br />
     <div class="column is-11">
       <AddCounter />
     </div>
@@ -21,7 +21,7 @@ export default {
   components: {
     Counter,
     AddCounter,
-    SubtractCounter,
-  },
+    SubtractCounter
+  }
 }
 </script>
