@@ -8,19 +8,15 @@
   },
   "extends": [
     "eslint:recommended",
-    "pluing:prettier/recommended",
-    "plugin:vue/recommended",
+    "plugin:vue/essential",
     "prettier"
   ],
   "plugins": [
-    "vue",
-    "prettier"
+    "prettier",
+    "vue"
   ],
   "rules": {
-    "prettier/prettier": [
-      "error"
-    ],
-    "no-var": "error",
-    "no-multi-spaces": 2
+    "prettier/prettier": "error",
+    "no-var": "error"
   }
 }
